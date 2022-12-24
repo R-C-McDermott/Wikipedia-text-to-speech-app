@@ -4,23 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="96b89925-0472-4b85-aac2-c62f35701360" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/AppUI/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppUI/build.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppUI/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppUI/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppUI/gradlew" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppUI/gradlew.bat" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppUI/python_scripts/Main.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppUI/python_scripts/TextToSpeechConvertor.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppUI/python_scripts/WebScraper.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppUI/python_scripts/WikiContent.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppUI/python_scripts/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppUI/settings.gradle" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppUI/src/main/java/com/ryan/appui/HelloApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppUI/src/main/java/com/ryan/appui/HelloController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppUI/src/main/java/module-info.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/AppUI/src/main/resources/com/ryan/appui/hello-view.fxml" afterDir="false" />
+    <list default="true" id="96b89925-0472-4b85-aac2-c62f35701360" name="Changes" comment="Changing GUI design">
+      <change afterPath="$PROJECT_DIR$/AppUI/src/main/resources/com/ryan/appui/application-view.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppUI/src/main/java/com/ryan/appui/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppUI/src/main/java/com/ryan/appui/HelloApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppUI/src/main/resources/com/ryan/appui/hello-view.fxml" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -81,7 +69,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Ryan/Desktop/Java Local Repos/Wikipedia-text-to-speech-app/AppUI/python_scripts/Main.py&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Program Files (x86)/Oracle/JavaFX Scene Builder 2.0/JavaFX Scene Builder 2.0.exe&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -93,8 +81,8 @@
       <command value="gradle build" />
     </option>
   </component>
-  <component name="RunManager" selected="Python.Main">
-    <configuration name="Unnamed" type="Application" factoryName="Application" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.RunApplication">
+    <configuration name="RunApplication" type="Application" factoryName="Application">
       <option name="MAIN_CLASS_NAME" value="com.ryan.appui.HelloApplication" />
       <module name="AppUI.main" />
       <method v="2">
@@ -189,7 +177,7 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Application.Unnamed" />
+      <item itemvalue="Application.RunApplication" />
       <item itemvalue="Gradle.UI [build]" />
       <item itemvalue="Python.Main" />
     </list>
@@ -220,6 +208,10 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Changing GUI design" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changing GUI design" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
