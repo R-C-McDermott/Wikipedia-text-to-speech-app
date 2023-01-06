@@ -5,10 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="96b89925-0472-4b85-aac2-c62f35701360" name="Changes" comment="Changing GUI design">
-      <change afterPath="$PROJECT_DIR$/AppUI/src/main/resources/com/ryan/appui/application-view.fxml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppUI/src/main/java/com/ryan/appui/CustomOutputStream.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/AppUI/src/main/java/com/ryan/appui/UiController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppUI/src/main/java/com/ryan/appui/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppUI/src/main/java/com/ryan/appui/HelloApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/AppUI/src/main/resources/com/ryan/appui/hello-view.fxml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppUI/python_scripts/TextToSpeechConvertor.py" beforeDir="false" afterPath="$PROJECT_DIR$/AppUI/python_scripts/TextToSpeechConvertor.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppUI/python_scripts/WebScraper.py" beforeDir="false" afterPath="$PROJECT_DIR$/AppUI/python_scripts/WebScraper.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppUI/python_scripts/__init__.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppUI/python_scripts/test.mp3" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppUI/src/main/java/com/ryan/appui/HelloApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/AppUI/src/main/java/com/ryan/appui/WikiApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppUI/src/main/java/com/ryan/appui/HelloController.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/AppUI/src/main/resources/com/ryan/appui/application-view.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/AppUI/src/main/resources/com/ryan/appui/application-view.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -50,6 +57,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Python Script" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -68,12 +76,13 @@
   &quot;keyToString&quot;: {
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
     &quot;last_opened_file_path&quot;: &quot;C:/Program Files (x86)/Oracle/JavaFX Scene Builder 2.0/JavaFX Scene Builder 2.0.exe&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Facets&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;configurable.group.editor&quot;
+    &quot;settings.editor.selected.configurable&quot;: &quot;advanced.settings&quot;
   }
 }</component>
   <component name="RunAnythingCache">
@@ -83,7 +92,7 @@
   </component>
   <component name="RunManager" selected="Application.RunApplication">
     <configuration name="RunApplication" type="Application" factoryName="Application">
-      <option name="MAIN_CLASS_NAME" value="com.ryan.appui.HelloApplication" />
+      <option name="MAIN_CLASS_NAME" value="com.ryan.appui.WikiApplication" />
       <module name="AppUI.main" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -196,6 +205,14 @@
       <option name="presentableId" value="Default" />
       <updated>1671629327262</updated>
     </task>
+    <task id="LOCAL-00001" summary="Changing GUI design">
+      <created>1671880154518</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1671880154518</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

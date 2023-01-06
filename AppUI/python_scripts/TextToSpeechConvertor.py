@@ -1,8 +1,9 @@
 from gtts import gTTS
 import pyttsx3
 
+
 class TextToSpeechConvertor:
-    OUTPUT_FILEPATH = "../temp/"
+    OUTPUT_FILEPATH = "./AppUI/temp/"
 
     def __init__(self, wiki_content):
         self.wiki_content = wiki_content
@@ -21,7 +22,6 @@ class TextToSpeechConvertor:
         engine.setProperty('rate', self.pyttsx3_config["rate"])
         voices = engine.getProperty('voices')
         engine.setProperty('voice', voices[self.pyttsx3_config["voice_index"]].id)
-
         engine.save_to_file(self.wiki_content.build_full_text(),
                             f"{self.OUTPUT_FILEPATH}{self.wiki_content.get_converted_title_to_filename()}.mp3")
         engine.runAndWait()

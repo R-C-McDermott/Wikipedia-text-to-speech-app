@@ -3,13 +3,13 @@
 <?import javafx.scene.control.*?>
 <?import javafx.scene.layout.*?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="341.0" prefWidth="469.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="341.0" prefWidth="469.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.ryan.appui.UiController">
    <children>
-      <TextField id="URLInput" layoutX="31.0" layoutY="51.0" prefHeight="25.0" prefWidth="408.0" />
+      <TextField fx:id="URLInput" layoutX="31.0" layoutY="51.0" prefHeight="25.0" prefWidth="408.0" />
       <Label layoutX="179.0" layoutY="23.0" text="Enter Wikipedia URL:" />
-      <Button id="convertWikiToAudio" layoutX="156.0" layoutY="87.0" mnemonicParsing="false" text="Convert Page to Audio File" />
+      <Button fx:id="convertWikiToAudio" layoutX="156.0" layoutY="87.0" mnemonicParsing="false" onAction="#runPythonScript" text="Convert Page to Audio File" />
       <Button id="playButton" disable="true" layoutX="179.0" layoutY="277.0" mnemonicParsing="false" text="Play" />
       <Button id="pauseButton" disable="true" layoutX="235.0" layoutY="277.0" mnemonicParsing="false" text="Pause" />
-      <TextArea id="terminalOutput" layoutX="31.0" layoutY="128.0" prefHeight="143.0" prefWidth="408.0" />
+      <TextArea fx:id="terminalOutput" editable="false" layoutX="31.0" layoutY="128.0" prefHeight="143.0" prefWidth="408.0" />
    </children>
 </AnchorPane>

@@ -7,12 +7,12 @@ import javafx.stage.Stage;
 
 import java.io.IOException;
 
-public class HelloApplication extends Application {
+public class WikiApplication extends Application {
     @Override
     public void start(Stage stage) throws IOException {
-        FXMLLoader fxmlLoader = new FXMLLoader(HelloApplication.class.getResource("application-view.fxml"));
+        FXMLLoader fxmlLoader = new FXMLLoader(WikiApplication.class.getResource("application-view.fxml"));
         Scene scene = new Scene(fxmlLoader.load());
-        stage.setTitle("Hello!");
+        stage.setTitle("Wikipedia Text-to-voice");
         stage.setScene(scene);
         stage.sizeToScene();
         stage.show();
