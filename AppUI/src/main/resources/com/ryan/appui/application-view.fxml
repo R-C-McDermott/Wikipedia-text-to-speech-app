@@ -8,8 +8,8 @@
       <TextField fx:id="URLInput" layoutX="31.0" layoutY="51.0" prefHeight="25.0" prefWidth="408.0" />
       <Label layoutX="179.0" layoutY="23.0" text="Enter Wikipedia URL:" />
       <Button fx:id="convertWikiToAudio" layoutX="156.0" layoutY="87.0" mnemonicParsing="false" onAction="#runPythonScript" text="Convert Page to Audio File" />
-      <Button id="playButton" disable="true" layoutX="179.0" layoutY="277.0" mnemonicParsing="false" text="Play" />
-      <Button id="pauseButton" disable="true" layoutX="235.0" layoutY="277.0" mnemonicParsing="false" text="Pause" />
+      <Button fx:id="playButton" disable="true" layoutX="179.0" layoutY="277.0" mnemonicParsing="false" onAction="#playAudio" text="Play" />
+      <Button fx:id="pauseButton" disable="true" layoutX="235.0" layoutY="277.0" mnemonicParsing="false" onAction="#pauseAudio" text="Pause" />
       <TextArea fx:id="terminalOutput" editable="false" layoutX="31.0" layoutY="128.0" prefHeight="143.0" prefWidth="408.0" />
    </children>
 </AnchorPane>

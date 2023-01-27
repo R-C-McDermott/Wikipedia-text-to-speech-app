@@ -4,11 +4,12 @@ import re
 
 from WikiContent import WikiContent
 
-WIKI_TEST_PAGE = "https://en.wikipedia.org/wiki/Cabernet_Sauvignon"
-# WIKI_TEST_PAGE = "https://en.wikipedia.org/wiki/2018_FIFA_World_Cup_final"
+# "https://en.wikipedia.org/wiki/Cabernet_Sauvignon"
+# "https://en.wikipedia.org/wiki/2018_FIFA_World_Cup_final"
+# "https://en.wikipedia.org/wiki/Standing_Up_in_the_Milky_Way"
 
-def get_wiki_content():
-    r = requests.get(WIKI_TEST_PAGE)
+def get_wiki_content(url):
+    r = requests.get(url)
     html = r.content
     bs = BeautifulSoup(html, 'html.parser')
 
